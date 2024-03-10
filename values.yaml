@@ -1,0 +1,18 @@
+
+ingress:
+  enabled: false
+  host: localhost
+  tls:
+    enabled: false
+    secretName: ""
+
+postgresql:
+  enabled: true
+  auth:
+    username: admin
+    password: admin
+    existingSecret: ""
+    secretKeys:
+      adminPasswordKey: admin-password
+      userPasswordKey: user-password
+      replicationPasswordKey: replication-password
