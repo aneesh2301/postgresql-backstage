@@ -1,6 +1,6 @@
 
 ingress:
-  enabled: false
+  enabled: true
   host: localhost
   tls:
     enabled: false
